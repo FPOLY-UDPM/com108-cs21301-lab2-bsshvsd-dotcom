@@ -12,13 +12,18 @@
 
 int main(){
     // Khai báo biến
-
+    int bankinh = 0;
     // Nhập dữ liệu
-
+    printf("Nhap ban kinh hinh tron: ");
+    scanf("%d", &bankinh);
 
     // Xử lý, tính toán
+    float chuvi = 2 * 3.14 * bankinh;
+    float dientich = 3.14 * bankinh * bankinh
 
     // Hiển thị kết quả
 
-
+    printf("Chu vi hinh tron la: %.2f\n", chuvi);
+    printf("Dien tich hinh tron la: %.2f\n", dientich);
+    return 0;
 }

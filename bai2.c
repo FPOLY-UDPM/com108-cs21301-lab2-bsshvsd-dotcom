@@ -12,13 +12,22 @@
 
 int main(){
     // Khai báo biến
+    int dai = 0;
+    int rong = 0;
 
     // Nhập dữ liệu
-
+    printf("Nhap chieu dai hinh chu nhat: ");
+    scanf("%d", &dai);
+    printf("Nhap chieu rong hinh chu nhat: ");  
+    scanf("%d", &rong);
 
     // Xử lý, tính toán
+    int chuvi = 2 * (dai + rong);
+    int dientich = dai * rong;
 
     // Hiển thị kết quả
-
+    printf("Chu vi hinh chu nhat la: %d\n", chuvi);
+    printf("Dien tich hinh chu nhat la: %d\n", dientich);
+    return 0;
 
 }
