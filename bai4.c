@@ -14,13 +14,22 @@
 
 int main(){
     // Khai báo biến
+    float diemToan = 0;
+    float diemLy = 0;
+    float diemHoa = 0;
 
-    // Nhập dữ liệu
-
+    // Nhập dữ liệu 
+    printf("Nhap diem mon Toan: ");
+    scanf("%f", &diemToan);
+    printf("Nhap diem mon Ly: ");
+    scanf("%f", &diemLy);
+    printf("Nhap diem mon Hoa: ");
+    scanf("%f", &diemHoa);
 
     // Xử lý, tính toán
+    float diemTrungBinh = (diemToan * 3 + diemLy * 2 + diemHoa * 1) / (3 + 2 + 1);
 
     // Hiển thị kết quả
-
-
+    printf("Diem trung binh la: %.2f\n", diemTrungBinh);
+    return 0;
 }

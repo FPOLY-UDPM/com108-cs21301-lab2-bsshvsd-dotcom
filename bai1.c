@@ -12,12 +12,21 @@
 
 int main(){
     // Khai báo biến
-
+    int a = 0;
+    int b = 0;
     // Nhập dữ liệu
-
+    printf("Nhap so thu nhat: ");
+    scanf("%d", &a);
+    printf("Nhap so thu hai: ");
+    scanf("%d", &b);
 
     // Xử lý, tính toán
+    int hieu = a - b;
+    int tong = a + b;
 
     // Hiển thị kết quả
+    printf("Hieu cua %d va %d la: %d\n", a, b, hieu);
+    printf("Tong cua %d va %d la: %d\n", a, b, tong);
+    return 0;
 
 }
